@@ -266,12 +266,12 @@ const CreatorProfiles = () => {
                       rel="noopener noreferrer"
                       className="flex items-center space-x-1.5 p-2 bg-gray-900 border border-gray-800 rounded-lg hover:border-red-500/20 hover:bg-red-500/5 text-gray-300 hover:text-red-400 transition-all"
                     >
-                      <Globe className="w-4 h-4" />
+                      <PinterestIcon className="w-4 h-4" />
                       <span>Pinterest</span>
                     </a>
                   ) : (
                     <span className="flex items-center space-x-1.5 p-2 bg-gray-950 border border-gray-900 rounded-lg text-gray-600 select-none">
-                      <Globe className="w-4 h-4" />
+                      <PinterestIcon className="w-4 h-4" />
                       <span>Pinterest</span>
                     </span>
                   )}
