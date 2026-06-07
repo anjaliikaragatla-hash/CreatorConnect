@@ -76,7 +76,7 @@ function App() {
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </main>
-          
+
           <footer className="bg-dark-950 border-t border-gray-900 py-6 text-center text-xs text-gray-500">
             &copy; {new Date().getFullYear()} CreatorConnect. All rights reserved. Connecting Creators & Brands.
           </footer>
